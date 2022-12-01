@@ -14,7 +14,7 @@ internal static class Solution
         for (var i = 0; i < result.Length; i++)
         {
             result[i] = mat[row][col];
-            Console.WriteLine($"row:{row}, col:{col}, i: {i}, result[i]: {result[i]}");
+            //Console.WriteLine($"row:{row}, col:{col}, i: {i}, result[i]: {result[i]}");
             
             if (up)
             {
